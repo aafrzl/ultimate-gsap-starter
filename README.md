@@ -48,7 +48,6 @@ Buka browser di `http://localhost:5173`
 
 - Semua file `script.js` di folder pages **KOSONG** - ini adalah tempat kamu akan menulis code
 - Setiap lesson punya HTML dan CSS yang sudah ready
-- Solutions ada di `PANDUAN_TUTORIAL.md`
 - Jangan ragu untuk experiment dan break things!
 
 ## 🔗 Resources
