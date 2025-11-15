@@ -6,7 +6,7 @@ Tutorial lengkap GSAP dari basic hingga advanced dengan 20 interactive lessons d
 
 ```bash
 # Clone repository
-git clone https://github.com/username/ultimate-gsap-starter.git
+git clone https://github.com/aafrzl/ultimate-gsap-starter.git
 
 # Masuk ke folder
 cd ultimate-gsap-starter
