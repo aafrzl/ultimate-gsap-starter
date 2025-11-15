@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar GSAP Timeline</title>
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <div class="arrow">
+          <a href="../../index.html">
+            <img src=" /arrow.svg" alt="arrow" />
+          </a>
+        </div>
+
+        <section>
+          <h1>Belajar GSAP Timeline</h1>
+
+          <p>
+            Method <code>gsap.timeline()</code> dipake buat bikin instance timeline yang mengatur urutan beberapa animasi dengan cara yang terkontrol dan tersinkronisasi.
+          </p>
+
+          <p>
+            Timeline memungkinkan developer buat chain animasi pakai method kayak <code>.to()</code>, <code>.from()</code>, dan <code>.fromTo()</code>, memberikan kontrol yang presisi atas urutan dan timing setiap step animasi.
+          </p>
+
+          <p>
+            Beda dengan animasi GSAP standalone yang jalan independen, timeline mengelompokkan animasi jadi satu, memungkinkan kontrol playback terpusat pakai method kayak <code>.play()</code>, <code>.pause()</code>, <code>.reverse()</code>, dan <code>.restart()</code>.
+          </p>
+
+          <p>
+            Timeline juga support fitur kayak relative positioning, overlapping animations pakai time offset, label buat navigasi, dan nesting timeline lain, bikin mereka ideal buat sequence animasi yang kompleks.
+          </p>
+
+          <p>
+            Baca lebih lanjut tentang
+            <a
+              href="https://gsap.com/resources/getting-started/timelines"
+              target="_blank"
+              >Timeline GSAP</a
+            >.
+          </p>
+        </section>
+      </div>
+
+      <div class="demo flex-center">
+        <section>
+          <div class="cards">
+            <div class="card" data-id="1">
+              <img
+                src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=2940&auto=format&fit=crop"
+                alt="image"
+              />
+              <div class="info">
+                <h3>Swiss Alps</h3>
+                <p>Zermatt, Switzerland</p>
+                <p><strong>$1,200</strong> per orang</p>
+              </div>
+            </div>
+
+            <div class="card" data-id="2">
+              <img
+                src="https://images.unsplash.com/photo-1491466424936-e304919aada7?q=80&w=2969&auto=format&fit=crop"
+                alt="image"
+              />
+              <div class="info">
+                <h3>Mount Fuji</h3>
+                <p>Honshu, Japan</p>
+                <p><strong>$980</strong> per orang</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-page" id="detailPage">
+            <button class="close-btn" id="closeBtn">×</button>
+            <img
+              src=""
+              alt="Detail Image"
+              class="detail-image"
+              id="detailImage"
+            />
+            <div class="detail-content" id="detailContent">
+              <h2 id="detailTitle">Halaman Detail</h2>
+              <p id="detailDescription">
+                Ini adalah tampilan full-page dari destinasi travel. Temukan pemandangan yang breathtaking, pengalaman yang unforgettable, dan perjalanan seumur hidup. Sesuaikan deskripsi dengan penawaran kamu.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <script type="module" src="script.js"></script>
+    </main>
+  </body>
+</html>
